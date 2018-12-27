@@ -1,0 +1,383 @@
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .header {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    max-width: 100%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .logo, .enrollment-buttons {
+    display: flex;
+    align-items: center; 
+  }
+
+  .enrollment-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .enrollment-buttons button {
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px 15px;
+    background-color: transparent;
+    color: white;
+    border-radius: 25px;
+    border: 1px solid white;
+  }
+  
+  
+  
+  /* Title styles */
+  
+  .box-title {
+    position: relative;
+    background-image: url('../img/title-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 770px;
+  }
+  
+  .title-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 240px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .title-content p:nth-child(1) {
+    display: none;
+  }
+  
+  .title-content p:nth-child(2) {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.41;
+    margin: 30px 0 100px 0;
+  }
+  
+  .title-content button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.4px;
+    color: #ffffff;
+    border-radius: 35px;
+    border: 1px solid transparent;
+    background-color: #1699f8;
+    padding: 10px 20px;
+  }
+
+
+
+  /* Mission and Reasons styles */
+
+.box-mission-reasons {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.box-headers {
+  margin: 50px 10px 40px 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--black);
+}
+
+.content {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.76;
+  letter-spacing: normal;
+  color: var(--black);
+}
+
+.mission {
+  margin: 0 5%;
+}
+
+.reasons {
+  margin: 0 10%;
+}
+
+.item-header {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
+  color: var(--black);
+}
+
+.reasons * {
+  margin-bottom: 15px;
+}
+
+
+/* Mobile application description style */
+
+.box-app {
+  position: relative;
+  background-image: url('../img/mobileapp-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.app-description {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 50px 20px;
+}
+
+.app-description h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.app-description p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.downoload-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.downoload-buttons img {
+  width: 45%;
+}
+
+
+/* Manual styles */
+
+.box-manual {
+  text-align: center;
+}
+
+.manuals {
+  display: flex;
+  flex-flow: wrap;
+  margin: 0 10% 100px 10%;
+}
+
+.manuals div {
+  width: 100%;
+}
+
+.manuals div * {
+  margin: 20px;
+}
+
+
+/* Reviews style */
+
+.box-review {
+  position: relative;
+  background-image: url('../img/\ reviews-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  height: 670px;
+  color: white;
+  text-align: center;
+}
+
+.reviews {
+  position: absolute;
+  margin: 30px 10px;
+}
+
+.reviews *{
+  margin: 10px;
+}
+
+.avatar {
+  border: 3px solid transparent;
+  border-radius: 50%;
+  max-width: 130px;
+  max-height: 130px;
+}
+
+
+
+/* Statistic style */
+
+.box-statistics {
+  text-align: center;
+  margin: 0 50px 100px 50px;
+}
+
+.statistics {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.statistics > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.round-number {
+  margin: 40px 0;
+  width: 141px;
+  height: 141px;
+  border: 3px solid purple;
+  border-radius: 50%;
+}
+
+.round-number p {
+  margin: 50px 0 0 15px;
+  width: 113px;
+  height: 50px;
+  background-image: linear-gradient(to top, #5ca6db, #8569b3);
+  font-family: 'OpenSans', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+.box-build-community {
+  position: relative;
+  background-image: url('../img/build-community-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+  color: white;
+}
+
+.build-community {
+  position: absolute;
+  max-width: 100%;
+  margin: 100px 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.build-community button {
+  margin-top: 40px;
+  width: 270px;
+  height: 60px;
+  border-radius: 35px;
+  border-style: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  color: #ffffff;
+  background-color: #1699f8;
+}
+
+
+/* Locations style */
+
+.box-locations {
+  text-align: center;
+}
+
+.location-picture {
+  display: none;
+}
+
+.locations {
+  margin-bottom: 50px;
+}
+
+
+/* Footer style */
+
+.footer {
+  text-align: center;
+  color: white;
+  position: relative;
+  height: 700px;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-image: linear-gradient(to top, #de7f16, #2c0c4b);
+}
+
+.social-networks {
+  padding: 40px 0;
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-100px);
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-info {
+  position: absolute;
+  width: 80%;
+  margin: 120px 10% 0 10%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.footer-info div {
+  margin-top: 30px;
+}
+
+}

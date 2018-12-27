@@ -1,0 +1,365 @@
+/* General Styles */
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto font/Roboto-Black.ttf");
+  font-weight: 600;
+}
+
+/* Header menu styles */
+@media screen and (min-width: 1025px) {
+
+.header {
+  position: absolute;
+  z-index: 1;
+  width: 60%;
+  padding-top: 20px;
+  margin: 0 20%;
+  display: flex;
+  justify-content: space-between;
+  
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo, .enrollment-buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+}
+
+.enrollment-buttons button {
+  font-size: 20px;
+  margin: 0 5px;
+  padding: 3px 10px;
+  background-color: transparent;
+  color: white;
+  border-radius: 25px;
+  border: 1px solid white;
+}
+
+
+
+/* Title styles */
+
+.box-title {
+  position: relative;
+  background-image: url('../img/title-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 770px;
+}
+
+.title-content {width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 240px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.title-content p:nth-child(1) {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 70px;
+}
+
+.title-content p:nth-child(2) {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 23px;
+  line-height: 1.41;
+  margin: 30px 0 100px 0;
+}
+
+.title-content button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  letter-spacing: 1.4px;
+  color: #ffffff;
+  border-radius: 35px;
+  border: 1px solid transparent;
+  background-color: #1699f8;
+  padding: 10px 20px;
+
+}
+
+/* Mission and Reasons styles */
+
+.box-mission-reasons {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.box-headers {
+  margin: 100px 0 40px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--black);
+}
+
+.content {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.76;
+  letter-spacing: normal;
+  color: var(--black);
+}
+
+.mission {
+  margin: 0 20%;
+}
+
+.reasons {
+  display: flex;
+  margin: 0 10%;
+}
+
+.reasons > div {
+  margin: 20px;
+}
+
+.item-header {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
+  color: var(--black);
+}
+
+.reasons * {
+  margin-bottom: 15px;
+}
+
+/* Mobile application description style */
+
+.box-app {
+  position: relative;
+  background-image: url('../img/mobileapp-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  height: 810px;
+}
+
+.app-description {
+  position: absolute;
+  top: 100px;
+  right: 200px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.app-description h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.app-description p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+/* Manual styles */
+
+.box-manual {
+  text-align: center;
+}
+
+.manuals {
+  display: flex;
+  flex-flow: wrap;
+  margin: 0 10% 100px 10%;
+}
+
+.manuals div {
+  width: 33.3%;
+}
+
+.manuals div * {
+  margin: 20px;
+}
+
+/* Reviews style */
+
+.box-review {
+  position: relative;
+  background-image: url('../img/\ reviews-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  height: 670px;
+  color: white;
+  text-align: center;
+}
+
+.reviews {
+  position: absolute;
+  margin: 100px 30%;
+}
+
+.reviews *{
+  margin: 10px;
+}
+
+.avatar {
+  border: 3px solid transparent;
+  border-radius: 50%;
+  max-width: 130px;
+  max-height: 130px;
+}
+
+/* Statistic style */
+
+.box-statistics {
+  text-align: center;
+  margin: 0 50px 100px 50px;
+}
+
+.statistics {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.round-number {
+  margin: 40px 0;
+  width: 141px;
+  height: 141px;
+  border: 3px solid purple;
+  border-radius: 50%;
+}
+
+.round-number p {
+  margin: 50px 0 0 15px;
+  width: 113px;
+  height: 50px;
+  background-image: linear-gradient(to top, #5ca6db, #8569b3);
+  font-family: 'OpenSans', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+.box-build-community {
+  position: relative;
+  background-image: url('../img/build-community-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  color: white;
+}
+
+.build-community {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  margin: 0 0 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.build-community p {
+  width: 814px;
+}
+
+.build-community button {
+  display: none;
+}
+
+
+/* Locations style */
+
+.box-locations {
+  text-align: center;
+}
+
+.location-picture {
+  max-width: 80%;
+  object-fit: cover;
+}
+
+.locations {
+  margin: 50px 15%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.locations div * {
+  margin-top: 20px;
+}
+
+
+
+/* Footer style */
+
+.footer {
+  color: white;
+  position: relative;
+  height: 400px;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-image: linear-gradient(to top, #de7f16, #2c0c4b);
+}
+
+.social-networks {
+  padding: 40px 0;
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-100px);
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-info {
+  position: absolute;
+  width: 60%;
+  margin: 100px 20%;
+  display: flex;
+  justify-content: space-around;
+}
+}
